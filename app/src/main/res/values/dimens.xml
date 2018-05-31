@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="forty">40dp</dimen>
+    <dimen name="fifty_one">51dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="two_fifty">250dp</dimen>
+</resources>

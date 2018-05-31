@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- This is a Company wallpaper-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two_fifty"
+            android:scaleType="fitStart"
+            android:src="@drawable/imagea"
+            android:contentDescription="@string/wallpaper_of_copmpany" />
+
+        <!-- This is a Company logo-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fifty_one"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/company_logo_description" />
+
+      <!-- This is a Company Phone number-->
+
+        <TextView
+            style="@style/important_text"
+            android:layout_marginTop="@dimen/forty"
+            android:drawableLeft="@drawable/ic_settings_phone_black_24dp"
+            android:text="@string/company_number"
+            android:autoLink="phone"
+            android:drawableStart="@drawable/ic_settings_phone_black_24dp" />
+
+        <!--This is a Company address-->
+
+        <TextView
+            style="@style/important_text"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:text="@string/company_address"
+            android:autoLink="map"
+            android:drawableStart="@drawable/ic_home_black_24dp" />
+
+       <!-- This is a Company timing of service-->
+
+        <TextView
+            style="@style/important_text"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:text="@string/timing"
+            android:drawableStart="@drawable/ic_access_time_black_24dp" />
+
+        <!-- This is a Company email-id-->
+
+        <TextView
+            style="@style/important_text"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:text="@string/company_email"
+            android:autoLink="email"
+            android:drawableStart="@drawable/ic_email_black_24dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
